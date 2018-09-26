@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <AutoCompleteTextView
+    <!--<AutoCompleteTextView
         android:id="@+id/autoCompleteTextView1"
         android:layout_width="200dp"
         android:layout_height="50dp" />
@@ -30,7 +30,15 @@
         android:text="按我"
         app:layout_constraintLeft_toLeftOf="@+id/autoCompleteTextView1"
         app:layout_constraintRight_toRightOf="@+id/autoCompleteTextView1"
-        app:layout_constraintTop_toBottomOf="@id/autoCompleteTextView1" />
+        app:layout_constraintTop_toBottomOf="@id/autoCompleteTextView1" />-->
+
+    <ListView
+        android:id="@+id/data_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
 
 
 </android.support.constraint.ConstraintLayout>

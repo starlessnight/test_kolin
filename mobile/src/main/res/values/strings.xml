@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">test_kotlin</string>
+    <string name="test11">asdzxc</string>
+    <string name="test122">asdzxc</string>
+    <string name="asda">asdzxc</string>
+    <string name="xx">asdzxc</string>
+    <string name="www">asdzxc</string>
+
+    <string name="TABLE_NAME">time_data</string>
 </resources>

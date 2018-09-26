@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#2fade2"
+        >
+        <TextView
+            android:id="@+id/item_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="123"
+            android:textSize="25dp"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="#cccccc"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5">
+                <TextView
+                    android:id="@+id/start_time_tx"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="#d9693a"
+                    android:gravity="center"/>
+                <TextView
+                    android:text="->"
+                    android:textSize="30dp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="#59baaa"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/end_time_tx"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="#d9693a"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/weeks_tx"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="#eecc00"
+                android:gravity="center"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/model_tx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textSize="25dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
